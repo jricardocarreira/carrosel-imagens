@@ -23,13 +23,6 @@
     opacity: 1;
 }
 
-.imagens-slider .slide .conteudo {
-    background-color: white;
-    width: 450px;
-    height: 500px;
-    margin: 100px;
-}
-
 .slide-rosa {
     background-image: url(../images/imagem1.png);
 }
@@ -69,4 +62,45 @@
 .opacidade {
     opacity: 0.6;
     cursor: default;
+}
+
+.conteudo {
+    background-color: white;
+    margin-left: 180px;
+    padding: 65px 60px;
+    width: 620px;
+    border-radius: 10px;
+}
+
+.conteudo .titulo {
+    font-size: 5rem;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+.conteudo .texto {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.conteudo .botao {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.botao.rosa {
+    color: #C50000;
+}
+
+.botao.verde {
+    color: #D9DD10;
+}
+
+.botao.laranja {
+    color: #A63A17;
+}
+
+.botao.azul {
+    color: #10ACDD;
 }
